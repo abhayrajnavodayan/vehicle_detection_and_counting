@@ -14,7 +14,7 @@ count_line_position=550
 # Initialize Subtractor 
 algo=cv2.bgsegm.createBackgroundSubtractorMOG()
 
-def center_handle(x,y,w,h): # thi is for counting the vehicle
+def center_handle(x,y,w,h): # this is for counting the vehicle
     x1=int(w/2)
     y1=int(h/2)
     cx=x+x1
