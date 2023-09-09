@@ -1,5 +1,4 @@
 flask
 gunicorn
 opencv-python
-opencv-contrib-python
 numpy
