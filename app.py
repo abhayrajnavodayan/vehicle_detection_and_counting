@@ -11,7 +11,7 @@ min_height_rect = 80  # min height rectangle
 count_line_position = 550
 
 # Initialize Subtractor
-algo = cv2.bgsegm.createBackgroundSubtractorMOG()
+algo = cv2.createBackgroundSubtractorMOG2()
 
 def center_handle(x, y, w, h):  # this is for counting the vehicle
     x1 = int(w / 2)
